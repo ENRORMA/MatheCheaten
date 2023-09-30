@@ -8,8 +8,8 @@ Counter = int(input("Wie Viele: "))
 
 while Counter != 0:
 	Counter += -1
-	a = random.randrange(1,10)
-	b = random.randrange(1,10)
+	a = random.randrange(2,20)
+	b = random.randrange(2,20)
 	foo = random.randrange(0,2)
 	if foo == 0:
 		FirstIsX = True
