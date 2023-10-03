@@ -23,5 +23,5 @@ while Counter != 0:
 	else:
 		print(f"({a} - {b}x)\u00b2")
 		print(f"{a}\u00b2 - {2 * a*b}x + {b}x\u00b2")
-		print(f"{a*a} - {2 * a*b}x + {b*b}x")
-	print("-------------------------------------------------------")
+		print(f"{a*a} - {2 * a*b}x + {b*b}x\u00b2")
+	print("--------------------")

@@ -19,9 +19,9 @@ while Counter != 0:
 	if FirstIsX == True:
 		print(f"({a}x + {b})\u00b2")
 		print(f"{a}x\u00b2 + {2 * (a * b)}x + {b}\u00b2")
-		print(f"{a}x\u00b2 + {2 * (a * b)}x + {b*b}")
+		print(f"{a*a}x\u00b2 + {2 * (a * b)}x + {b*b}")
 	else:
 		print(f"({a} + {b}x)\u00b2")
 		print(f"{a}\u00b2 + {2 * (a * b)}x + {b}x\u00b2")
-		print(f"{a * a} + {2 * (a * b)}x + {b}x\u00b2")
-	print("-------------------------------------------------------")
+		print(f"{a * a} + {2 * (a * b)}x + {b*b}x\u00b2")
+	print("--------------------")

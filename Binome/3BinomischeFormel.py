@@ -4,13 +4,13 @@ print("Die dritte binomische formel ist:")
 print("  (a + b) * (a - b)")
 print(f"= a\u00b2 - b\u00b2\n\n")
 
-Counter = 1#int(input("Wie Viele: "))
+Counter = int(input("Wie Viele: "))
 
 while Counter != 0:
 	Counter += -1
-	a = 2#random.randrange(2,20)
-	b = 4#random.randrange(2,20)
-	foo = 0#random.randrange(0,2)
+	a = random.randrange(2,20)
+	b = random.randrange(2,20)
+	foo = random.randrange(0,2)
 	if foo == 0:
 		FirstIsX = True
 	else:
@@ -23,4 +23,4 @@ while Counter != 0:
 	else:
 		print(f"({a} + {b}x) * ({a} - {b}x)")
 		print(f"{a*a} - {b*b}x\u00b2")
-	print("-------------------------------------------------------")
+	print("--------------------")
